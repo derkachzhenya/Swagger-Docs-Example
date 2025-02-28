@@ -1,0 +1,22 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "My doc api",
+        "version": "1.0.0"
+    },
+    "paths": {
+        "/api/": {},
+        "/api/posts": {
+            "post": {
+                "summary": "Создание",
+                "operationId": "7999e1ba2e5585f522fc5d9d27915557",
+                "requestBody": {},
+                "responses": {
+                    "200": {
+                        "description": "OK"
+                    }
+                }
+            }
+        }
+    }
+}
